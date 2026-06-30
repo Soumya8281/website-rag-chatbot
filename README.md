@@ -40,6 +40,17 @@ Completed:
 - Prepared the data for semantic search
 
 ---
+---
+
+### Milestone 3: Embeddings & Vector Database ✅
+
+Completed:
+- Installed Sentence Transformers and FAISS
+- Generated embeddings for text chunks using the `all-MiniLM-L6-v2` model
+- Converted text chunks into vector representations
+- Created a FAISS vector database
+- Stored embeddings for semantic search
+- Saved the vector index as `website.index`
 
 ## 🛠 Technologies Used
 
@@ -47,6 +58,9 @@ Completed:
 - Requests
 - BeautifulSoup
 - JSON
+- Sentence Transformers
+- FAISS
+- NumPy
 - Git
 - GitHub
 
@@ -54,18 +68,18 @@ Completed:
 
 ## 📂 Project Structure
 
-```
 website-rag-chatbot/
 │
 ├── app.py
 ├── scraper.py
 ├── chunker.py
+├── vector_store.py
 ├── website.txt
 ├── chunks.json
+├── website.index
 ├── requirements.txt
 ├── README.md
 └── .gitignore
-```
 
 ---
 
@@ -113,8 +127,6 @@ python app.py
 
 ## 🔄 Upcoming Milestones
 
-- Generate text embeddings
-- Build a FAISS vector database
 - Implement semantic search
 - Integrate Gemini API
 - Develop a Streamlit user interface
