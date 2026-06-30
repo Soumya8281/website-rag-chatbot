@@ -323,8 +323,11 @@ jobs.python.org
 Latest News
 More
 2026-
-06-23
-Mitigated API authentication bypass for python.org download metadata
+06-29
+Packaging Council Inaugural Election Dates
+2026-
+06-28
+Packaging Council Inaugural Election Dates
 2026-
 06-23
 Mitigated API authentication bypass for python.org download metadata
@@ -332,11 +335,8 @@ Mitigated API authentication bypass for python.org download metadata
 06-23
 Python 3.15.0 beta 3 is here!
 2026-
-06-18
-PSF Board Election Dates for 2026
-2026-
-06-17
-Everything Security at PyCon US 2026
+06-23
+Mitigated API authentication bypass for python.org download metadata
 Upcoming Events
 More
 2026-
@@ -356,9 +356,9 @@ EuroPython 2026
 DjangoGirls Tamale 2026
 Success Stories
 More
-Python powers major aspects of Abridge’s ML lifecycle, including data annotation,  research and experimentation, and ML model deployment to production.
-Abridging clinical conversations using Python
-by Nimshi Venkat and Sandeep Konam
+“We feel much better equipped now to handle the challenges. And if we run into an issue, we’ll come to Caktus to hammer it out," said Stephen Johnston, VP of Engineering, at Force Therapeutics.
+A Startup Healthcare Tech Firm Is Now Poised for the Future
+by Caktus Group
 Use Python for…
 More
 Web Development
