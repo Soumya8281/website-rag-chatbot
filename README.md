@@ -14,6 +14,7 @@ The chatbot performs the following tasks:
 - Stores embeddings in a FAISS vector database
 - Retrieves relevant information using semantic search
 - Generates context-aware answers using Google Gemini
+- Provides an interactive web interface using Streamlit
 
 ---
 
@@ -57,8 +58,9 @@ AI Generated Response
 - Generates semantic embeddings using Sentence Transformers
 - Stores embeddings in a FAISS vector database
 - Retrieves relevant content using semantic search
-- Generates accurate responses using Google Gemini
-- Modular and easy-to-understand Python project structure
+- Generates AI-powered answers using Google Gemini
+- Interactive web interface using Streamlit
+- Easy-to-use and modular project structure
 
 ---
 
@@ -112,6 +114,19 @@ Completed:
 
 ---
 
+### ✅ Milestone 5: Basic Streamlit User Interface
+
+Completed:
+- Built a Streamlit web interface
+- Added website URL input
+- Processed website content through the UI
+- Connected the complete RAG pipeline
+- Added question input for users
+- Displayed AI-generated answers
+- Successfully tested the chatbot with multiple websites
+
+---
+
 ## 🛠 Technologies Used
 
 - Python
@@ -121,6 +136,7 @@ Completed:
 - Sentence Transformers
 - FAISS
 - Google Gemini API
+- Streamlit
 - python-dotenv
 - NumPy
 - Git
@@ -134,6 +150,7 @@ Completed:
 website-rag-chatbot/
 │
 ├── app.py
+├── streamlit_app.py
 ├── scraper.py
 ├── chunker.py
 ├── vector_store.py
@@ -192,18 +209,19 @@ GEMINI_API_KEY=YOUR_API_KEY
 ### 7. Run the application
 
 ```bash
-python app.py
+python -m streamlit run streamlit_app.py
 ```
 
 ---
 
-## 🔄 Upcoming Milestones
+## 🎯 Future Improvements
 
-- Build a Streamlit user interface
-- Improve chatbot response formatting
-- Test the application with different websites
+- Improve the Streamlit user interface
+- Add chat history
+- Display retrieved context
+- Support multiple websites
 - Optimize retrieval performance
-- Final documentation and demo video
+- Deploy the application online
 
 ---
 
