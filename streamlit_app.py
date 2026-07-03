@@ -1,6 +1,3 @@
-# Professional Streamlit UI for Website RAG Chatbot
-# Replace your existing streamlit_app.py with this file.
-
 import time
 import streamlit as st
 
