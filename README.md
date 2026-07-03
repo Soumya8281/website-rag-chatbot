@@ -1,5 +1,11 @@
 # Website RAG Chatbot
 
+
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
+![FAISS](https://img.shields.io/badge/FAISS-VectorDB-green)
+![Gemini](https://img.shields.io/badge/Google-Gemini-orange)
+
 ## 📌 Project Overview
 
 This project is being developed as part of the **ClaySys AI Hackathon 2026**.
@@ -46,7 +52,30 @@ Google Gemini API
       │
       ▼
 AI Generated Response
+
 ```
+
+## 📸 Application Screenshots
+
+The following screenshots demonstrate the main stages of the application.
+
+### 🏠 Home Page
+
+![Home Page](screenshots/home.png)
+
+---
+
+### 🌐 Website Processing
+
+![Website Processing](screenshots/processing.png)
+
+---
+
+### 🤖 AI Generated Answer
+
+![AI Answer](screenshots/answer.png)
+
+
 
 ---
 
@@ -144,10 +173,17 @@ Completed:
 
 ---
 
+
 ## 📂 Project Structure
 
 ```text
+
 website-rag-chatbot/
+│
+├── screenshots/
+│   ├── home.png
+│   ├── processing.png
+│   └── answer.png
 │
 ├── app.py
 ├── streamlit_app.py
@@ -162,9 +198,9 @@ website-rag-chatbot/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+---
 ```
 
----
 
 ## ▶️ How to Run
 
@@ -216,16 +252,17 @@ python -m streamlit run streamlit_app.py
 
 ## 🎯 Future Improvements
 
-- Improve the Streamlit user interface
-- Add chat history
-- Display retrieved context
-- Support multiple websites
-- Optimize retrieval performance
-- Deploy the application online
+- Improve the user interface with advanced chat features
+- Add support for PDF document analysis
+- Enable processing of multiple websites
+- Optimize retrieval accuracy and speed
+- Deploy the application on Streamlit Community Cloud
+- Add user authentication and session management
 
 ---
-
 ## 👩‍💻 Developed By
 
 **Soumya S Nair**
+
+Developed as part of the **ClaySys AI Hackathon 2026**.
 
